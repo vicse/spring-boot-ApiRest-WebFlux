@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "config.base.endpoint",
+      "type": "java.lang.String",
+      "description": "Description for config.base.endpoint."
+    }
+  ]}

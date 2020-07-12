@@ -18,7 +18,7 @@ import reactor.core.publisher.Flux;
 
 
 @SpringBootApplication
-public class SpringBootWebfluxApirestApplication implements CommandLineRunner {
+public class SpringBootWebfluxApiRestApplication implements CommandLineRunner {
 	
 	@Autowired
 	private ProductoDao dao;
@@ -26,11 +26,11 @@ public class SpringBootWebfluxApirestApplication implements CommandLineRunner {
 	@Autowired
 	private ReactiveMongoTemplate mongoTemplate;
 	
-	private static final Logger log = LoggerFactory.getLogger(SpringBootWebfluxApirestApplication.class);
+	private static final Logger log = LoggerFactory.getLogger(SpringBootWebfluxApiRestApplication.class);
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootWebfluxApirestApplication.class, args);
+		SpringApplication.run(SpringBootWebfluxApiRestApplication.class, args);
 	}
 
 	@Override
